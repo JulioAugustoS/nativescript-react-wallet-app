@@ -1,6 +1,6 @@
-import * as React from 'react';
-import * as ReactNativeScript from 'react-nativescript';
-import { MainStack } from './components/MainStack';
+import * as React from "react";
+import * as ReactNativeScript from "react-nativescript";
+import { MainStack } from "./routes/MainStack";
 
 // In NativeScript, the app.ts file is the entry point to your application. You
 // can use this file to perform app-level initialization, but the primary
@@ -9,7 +9,8 @@ import { MainStack } from './components/MainStack';
 // Controls react-nativescript log verbosity.
 // - true: all logs;
 // - false: only error logs.
-Object.defineProperty(global, '__DEV__', { value: false });
+// @ts-ignore
+Object.defineProperty(global, "__DEV__", { value: false });
 
 ReactNativeScript.start(React.createElement(MainStack, {}, null));
 

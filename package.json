@@ -10,6 +10,7 @@
     "react-nativescript-navigation": "^5.0.0"
   },
   "devDependencies": {
+    "@nativescript/ios": "8.6.3",
     "@nativescript/types": "~8.6.0",
     "@nativescript/webpack": "~5.0.18",
     "@types/react": "npm:types-react-without-jsx-intrinsics@^18.0.17",
@@ -17,7 +18,5 @@
   },
   "scripts": {
     "type-check": "tsc --noEmit"
-  },
-  "gitHead": "1350d382fb4b0ed4c6e9685df909518b2688e004",
-  "readme": "NativeScript Application"
+  }
 }

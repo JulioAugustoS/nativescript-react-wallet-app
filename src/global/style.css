@@ -1,0 +1,8 @@
+.global-container {
+  height: 100%;
+  flex-direction: column;
+}
+
+.global-bg {
+  background: #19173D;
+}
